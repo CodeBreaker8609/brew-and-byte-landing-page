@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew & Byte Coffee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--HEADER: Logo + Navigation--> 
+  <header class="site-header">
+    <div class="logo">☕ Brew & Byte</div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#order">Order</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+  <!--HERO SECTION: Main welcome message-->
+  <section class="hero">
+    <h1>Fuel Your Code. One Cup at a Time.</h1>
+    <p>Locally roasted. Wi-Fi ready. Open late.</p>
+    <a href="#menu" class="cta-button">View Menu</a>
+  </section>
+  <!--FEATURED COFFEE-->
+  <section class="featured-coffee" id="menu">
+    <h2>Featured Brews</h2>
+    <div class="coffee-grid">
+        <div class="coffee-card">
+            <img src="./images/latte.jpg" alt="Dark Mode Mocha">
+            <h3>Dark Mode Mocha</h3>
+            <p>Rich espresso, dark chocolate, and a shot of inspriation.</p>
+        </div>
+        <div class="coffee-card">
+            <img src="./images/expresso.jpg" alt="Byte Brew">
+            <h3>Byte Brew</h3>
+            <p>Our signature blend to help you debug and deploy faster.</p>
+        </div>
+        <div class="coffee-card">
+            <img src="./images/vanilla latte.jpg" alt="Vanilla Commit">
+            <h3>Vanilla Commit</h3>
+            <p>Classic vanilla latte with a sweet finish you'll push daily.</p>
+        </div>
+    </div>
+  </section>
+  <!--ABOUT SECTION-->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <div class="about-content">
+        <img src="./images/coffee shop.jpg" alt="Cozy Cafe' Interior">
+        <p>Brew & Byte is a cozy space designed for creators. Whether you're coding the next big thing, designing your dream world, or writing your first novel, we're here with the handcrafted drinks and quiet corners to make it happen.</p>
+    </div>
+  </section>
+  <!--NEWSLETTER SIGNUP-->
+  <section class="newsletter" id="order">
+    <h2>Join the Beanstream</h2>
+    <p>Subscribe for updates, events, and exclusive discounts.</p>
+    <form action="#" method="post">
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+  </section>
+  <!--FOOTER-->
+  <footer class="site-footer" id="contact">
+    <p>© 2025 Brew & Byte. All rights reserved.</p>
+    <p>Open daily 7AM – 10PM | 123 Bean Street, JavaTown, FL</p>
+    <div class="social-links">
+      <a href="#">Instagram</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">Facebook</a>
+    </div>
+  </footer>
+</body>
+</html>
