@@ -16,7 +16,7 @@ Welcome to **Brew & Byte**, a fictional coffee shop designed as a front-end deve
 
 ## 🚀 Live Demo
 
-Coming soon via GitHub Pages…
+(https://codebreaker8609.github.io/brew-and-byte-landing-page/)
 
 ---
 
