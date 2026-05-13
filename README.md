@@ -29,14 +29,6 @@ Welcome to **Brew & Byte**, a fictional coffee shop designed as a front-end deve
 
 ---
 
-## 📸 Screenshots
-
-| Desktop View | Mobile View |
-|--------------|-------------|
-| (screenshot) | (screenshot)|
-
----
-
 ## 🛠️ Features
 
 - Hero section with gradient background and call-to-action
@@ -59,9 +51,6 @@ brew-and-byte/
 ├── vanilla.jpg
 └── cafe.jpg
 
-yaml
-Copy
-Edit
 
 ---
 
